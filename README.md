@@ -35,3 +35,25 @@ aubify/
 ├── backend/        # Node.js + Express server
 ├── screenshots/    # Project images
 └── README.md
+
+---
+
+## 🧪 Getting Started (Run Locally)
+
+To run the project locally, you'll need to start both the frontend and backend.
+
+### ⚙️ Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- Git
+
+---
+
+### 🔧 Backend Setup
+
+```bash
+cd backend
+npm install
