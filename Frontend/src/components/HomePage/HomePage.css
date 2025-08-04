@@ -1,0 +1,116 @@
+.home-page {
+  background-color: whitesmoke;
+  overflow-x: hidden;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 25.5%;
+  width: 20%;
+}
+
+.filter-container label {
+  color: #840032;
+  margin-right: 10px;
+}
+
+.filter-container select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.411);
+  background-color: whitesmoke;
+  color: #840032;
+  cursor: pointer;
+  max-width: 135px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.post {
+  background-color: white;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 25px;
+  word-wrap: break-word;
+  font-family: "Times New Roman", Times, serif;
+  color: #840032;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.411);
+}
+
+.post-list .post {
+  width: 50%;
+  border-radius: 25px;
+}
+
+.post-list {
+  margin-top: 6%;
+  background-color: whitesmoke;
+  width: 100%;
+  margin-left: 8%;
+}
+
+.post-list h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.post-list ul {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+.post-container .post-list ul li {
+  max-width: 100%;
+  word-wrap: break-word;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.post-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.post-interactions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.interaction-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem; /* Size of the text next to icons */
+}
+
+.interaction-button img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.post-details-home {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #840032;
+}
+
+.report-message {
+  text-align: center;
+  margin-top: 6px;
+}

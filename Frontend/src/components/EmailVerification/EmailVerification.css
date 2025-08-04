@@ -1,0 +1,56 @@
+.ev-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #840032;
+}
+
+.verification-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.verification-title {
+  margin-bottom: 20px;
+}
+
+.verification-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.verification-label {
+  margin-bottom: 10px;
+}
+
+.verification-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.verification-button {
+  padding: 10px 20px;
+  background-color: #840032;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.verification-button:hover {
+  background-color: #5a0224;
+}
+
+.verification-error {
+  color: #ff0000;
+  margin-top: 10px;
+}

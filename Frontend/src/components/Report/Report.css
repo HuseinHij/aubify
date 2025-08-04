@@ -1,0 +1,42 @@
+/* Style for the container div */
+.report-page {
+  display: block;
+}
+
+/* Style for the header */
+.report-page h1 {
+  margin-bottom: 40px;
+  margin-top: 7%;
+  color: #840032;
+  margin-left: 24%;
+  text-align: center;
+}
+
+/* Style for the container of reported posts */
+.report-page .reported-posts-container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Style for each reported post */
+.report-page .reported-post {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  word-wrap: break-word;
+  font-family: "Times New Roman", Times, serif;
+  color: #840032;
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 50%;
+  cursor: pointer;
+  margin-left: 37%;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.411);
+}
+
+/* Style for the title of each reported post */
+.report-page h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
