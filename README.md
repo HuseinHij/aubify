@@ -24,17 +24,31 @@ Aubify is a social network built specifically for AUB students. Inspired by Redd
 | Database  | MongoDB (Mongoose)                                 |
 | Tools     | Git, GitHub, Postman, Visual Studio Code           |
 
-
 ---
 
 ## 📁 Folder Structure
 
-```plaintext
+```
 aubify/
 ├── frontend/       # React application
 ├── backend/        # Node.js + Express server
-├── screenshots/    # Project images
 └── README.md
+```
+
+---
+
+## 🌐 Live Demo
+
+You can try Aubify online:
+
+🔗 **[Live Link](https://aubify.netlify.app)**
+
+> 📌 Use the following test credentials to log in (will be added soon):
+
+```
+Username: [coming soon]
+Password: [coming soon]
+```
 
 ---
 
@@ -57,3 +71,32 @@ Make sure you have the following installed:
 ```bash
 cd backend
 npm install
+```
+
+1. Create a `.env` file in the `backend/` folder:
+
+```
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+
+2. Start the backend server:
+
+```bash
+npm start
+```
+
+---
+
+### 🎨 Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+The frontend will run on `http://localhost:3000/`, and the backend will run on `http://localhost:5000/`.
+
+---
